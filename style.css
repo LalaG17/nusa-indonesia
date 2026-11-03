@@ -2561,8 +2561,25 @@ html {
     height: 100%;
     display: block;
     object-fit: cover;
-    object-position: center;
-    transition: transform 0.5s ease;
+    object-position: center center;
+}
+
+/* Atur fokus foto masing-masing */
+.member-card:nth-child(1) img {
+    object-position: center center;
+}
+
+.member-card:nth-child(2) img {
+    object-position: center 75%;
+}
+
+.member-card:nth-child(3) img {
+    object-position: center 35%;
+}
+
+.member-card:nth-child(4) img {
+    object-position: center 35%;
+}
 }
 
 .member-card:hover .member-photo img {
