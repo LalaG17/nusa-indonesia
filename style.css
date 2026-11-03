@@ -2549,3 +2549,22 @@ html {
     transform: translateY(-2px);
 }
 
+/* ================= TEAM MEMBER PHOTOS ================= */
+
+.member-photo {
+    position: relative;
+    overflow: hidden;
+}
+
+.member-photo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease;
+}
+
+.member-card:hover .member-photo img {
+    transform: scale(1.05);
+}
